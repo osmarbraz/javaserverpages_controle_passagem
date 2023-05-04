@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com</groupId>
-    <artifactId>javaserverpage_controle_passagem</artifactId>
+    <artifactId>javaserverpages_controle_passagem</artifactId>
     <version>1</version>
     <packaging>war</packaging>
 
-    <name>javaserverpage_controle_passagem</name>
+    <name>javaserverpages_controle_passagem</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
