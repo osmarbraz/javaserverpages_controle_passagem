@@ -11,7 +11,7 @@ O programa realiza consultas e marcações se comunicando com o servidor atravé
 Para o programa consultar o voo é necessário chamar o formulário html "FrmVerificarStatus.jsp". 
 Na consulta através do formulário o usuário especifica um voo e assento e envia para o JSP "VerificarStatus.jsp" verificar se estão disponíveis. 
 
-O servlet retorna:
+O JSP retorna:
  - 0: voo disponível
  - 1: assento indisponível
  - 2: assento inexistente
@@ -25,7 +25,7 @@ Todos os códigos dos voos se iniciam com a letra "A":
 
 A marcação envolve chamar o formulário "FrmMarcarVoo.jsp" e enviar o código do voo e assento para o JSP "MarcarVoo.jsp" marcar o voo e assento como indisponível. 
 
-O servlet retorna:
+O JSP retorna:
  - 0: voo disponível
  - 1: assento indisponível
  - 2: assento inexistente
